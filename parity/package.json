@@ -1,0 +1,1 @@
+{ "name": "parity", "private": true, "dependencies": { "vscode-textmate": "9.2.0", "vscode-oniguruma": "2.0.1" } }

@@ -1,0 +1,6 @@
+node_modules/
+__pycache__/
+parity/.cache/
+out/
+out-parity.txt
+.DS_Store

@@ -1,0 +1,2017 @@
+{
+ "AIA.Elicitation.choice.focusedBorderColor": {
+  "light": "#3574f0",
+  "dark": "#548af7",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/prompt/selection/AirSelectionStyleKt"
+ },
+ "AIA.Elicitation.choice.hoverBackground": {
+  "light": "#ebecf0",
+  "dark": "#2b2d30",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/prompt/selection/AirSelectionStyleKt"
+ },
+ "AIA.Elicitation.choice.numberForeground": {
+  "light": "#6c707e",
+  "dark": "#868a91",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/prompt/selection/AirSelectionMarkerKt"
+ },
+ "AIA.Elicitation.choice.selectedBackground": {
+  "light": "#e8f0ff",
+  "dark": "#182337",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/prompt/selection/AirSelectionStyleKt"
+ },
+ "AIA.Elicitation.choice.selectedBorderColor": {
+  "light": "#4682fa",
+  "dark": "#548af7",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/prompt/selection/AirSelectionStyleKt"
+ },
+ "AIA.Elicitation.choice.selectedNumberForeground": {
+  "light": "#2f65ca",
+  "dark": "#afcbff",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/prompt/selection/AirSelectionMarkerKt"
+ },
+ "AIAssistant.Chat.StepCard.Default.background.color": {
+  "light": "#f7f8f9",
+  "dark": "#26282c",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/util/ThreadGuiColors"
+ },
+ "AIAssistant.Chat.StepCard.Default.border.color": {
+  "light": "#e9eaee",
+  "dark": "#33353b",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/util/ThreadGuiColors"
+ },
+ "Abbreviation.foreground": {
+  "light": "#5d6b2e",
+  "dark": "#b8bf40",
+  "class": "com/intellij/openapi/keymap/impl/ui/ShortcutTextList"
+ },
+ "ActionButton.focusedBorderColor": {
+  "light": "#62b8de",
+  "dark": "#5eacd0",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ActionButton"
+ },
+ "ActionButton.hoverBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ActionButton"
+ },
+ "ActionButton.hoverBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ActionButton"
+ },
+ "ActionButton.hoverSeparatorColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ActionButton"
+ },
+ "ActionButton.pressedBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ActionButton"
+ },
+ "ActionButton.pressedBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ActionButton"
+ },
+ "AgentThreads.SessionView.background": {
+  "light": "#ebf7ee",
+  "dark": "#2b3a2e",
+  "class": "com/intellij/air/frontend/core/AgentSessionViewTintPresentationKt"
+ },
+ "AgentThreads.SessionView.tabBackground": {
+  "light": "#cde5d1",
+  "dark": "#2d563b",
+  "class": "com/intellij/air/frontend/core/AgentSessionViewTintPresentationKt"
+ },
+ "Air.Prompt.Tooltip.footerBackground": {
+  "light": "#f7f8f9",
+  "dark": "#40434a",
+  "class": "com/intellij/air/frontend/prompt/composer/actions/tooltip/AirPromptTooltipViewKt"
+ },
+ "Air.Usage.barForeground": {
+  "light": "#6c707e",
+  "dark": "#ced0d6",
+  "class": "com/intellij/air/frontend/session/toolwindow/usage/AgentUsageColors"
+ },
+ "Air.Usage.pillBackground": {
+  "light": "#ebecf0",
+  "dark": "#393b40",
+  "class": "com/intellij/air/frontend/session/toolwindow/usage/AgentUsagePillLabel"
+ },
+ "Air.Usage.trackBackground": {
+  "light": "#dfe1e5",
+  "dark": "#43454a",
+  "class": "com/intellij/air/frontend/session/toolwindow/usage/AgentUsageColors"
+ },
+ "AppInspector.GraphNode.background": {
+  "light": "#fdfdfd",
+  "dark": "#515658",
+  "class": "com/android/tools/idea/appinspection/inspectors/backgroundtask/view/BackgroundTaskInspectorColors"
+ },
+ "AppInspector.GraphNode.borderColor": {
+  "light": "#a7a7a7",
+  "dark": "#2d2f31",
+  "class": "com/android/tools/idea/appinspection/inspectors/backgroundtask/view/BackgroundTaskInspectorColors"
+ },
+ "AppInspector.GraphNode.focusedBorderColor": {
+  "light": "#1886f7",
+  "dark": "#9ccdff",
+  "class": "com/android/tools/idea/appinspection/inspectors/backgroundtask/view/BackgroundTaskInspectorColors"
+ },
+ "Badge.blueBackground": {
+  "light": "#3871e1",
+  "dark": "#538af9",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.blueForeground": {
+  "light": "#ffffff",
+  "dark": "#212326",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.blueSecondaryForeground": {
+  "light": "#2f5eb9",
+  "dark": "#d0dffe",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.disabledForeground": {
+  "light": "#b5b7bd",
+  "dark": "#8b8e94",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.graySecondaryForeground": {
+  "light": "#73767c",
+  "dark": "#b5b7bd",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.greenBackground": {
+  "light": "#338555",
+  "dark": "#4e9d6c",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.greenForeground": {
+  "light": "#ffffff",
+  "dark": "#212326",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.greenOutlineBorderColor": {
+  "light": "#55a76a",
+  "dark": "#4e8052",
+  "class": "com/intellij/ide/ui/NonCommercialWidget"
+ },
+ "Badge.greenOutlineForeground": {
+  "light": "#208a3c",
+  "dark": "#5fad65",
+  "class": "com/intellij/ide/ui/NonCommercialWidget"
+ },
+ "Badge.greenSecondaryForeground": {
+  "light": "#2a6e47",
+  "dark": "#cde5d1",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Badge.purpleSecondaryForeground": {
+  "light": "#6c4ebb",
+  "dark": "#e2dbfc",
+  "class": "com/intellij/ui/components/BadgeKt"
+ },
+ "Banner.errorBackground": {
+  "light": "#fff7f7",
+  "dark": "#402929",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.errorBorderColor": {
+  "light": "#fad4d8",
+  "dark": "#5e3838",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.foreground": {
+  "light": "#000000",
+  "dark": "#dfe1e5",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.infoBackground": {
+  "light": "#f5f8fe",
+  "dark": "#25324d",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.infoBorderColor": {
+  "light": "#c2d6fc",
+  "dark": "#35538f",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.neutralMutedBackground": {
+  "light": "#f7f8f9",
+  "dark": "#26282c",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.neutralMutedBorderColor": {
+  "light": "#e9eaee",
+  "dark": "#33353b",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.successBackground": {
+  "light": "#f2fcf3",
+  "dark": "#253627",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.successBorderColor": {
+  "light": "#c5e5cc",
+  "dark": "#375239",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.warningBackground": {
+  "light": "#fffaeb",
+  "dark": "#3d3223",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Banner.warningBorderColor": {
+  "light": "#fed277",
+  "dark": "#5e4d33",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Banner"
+ },
+ "Bookmark.MnemonicAssigned.background": {
+  "light": "#f7c777",
+  "dark": "#665632",
+  "class": "com/intellij/ide/bookmark/actions/BookmarkTypeChooserKt"
+ },
+ "Bookmark.MnemonicAssigned.foreground": {
+  "light": "#000000",
+  "dark": "#bbbbbb",
+  "class": "com/intellij/ide/bookmark/actions/BookmarkTypeChooserKt"
+ },
+ "Bookmark.MnemonicCurrent.background": {
+  "light": "#389fd6",
+  "dark": "#345f85",
+  "class": "com/intellij/ide/bookmark/actions/BookmarkTypeChooserKt"
+ },
+ "Bookmark.MnemonicCurrent.foreground": {
+  "light": "#ffffff",
+  "dark": "#fefefe",
+  "class": "com/intellij/ide/bookmark/actions/BookmarkTypeChooserKt"
+ },
+ "Borders.ContrastBorderColor": {
+  "light": "#c9c9c9",
+  "dark": "#323232",
+  "class": "com/intellij/util/ui/UIUtil"
+ },
+ "Borders.color": {
+  "light": "#c0c0c0",
+  "dark": "#323232",
+  "class": "com/intellij/ui/JBColor"
+ },
+ "Button.Split.default.iconColor": {
+  "light": "#ffffff",
+  "dark": "#ffffff",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button$Split$Default"
+ },
+ "Button.Split.default.separatorColor": {
+  "light": "#88adf7",
+  "dark": "#83acfc",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button$Split$Default"
+ },
+ "Button.default.endBackground": {
+  "light": "#233143",
+  "dark": "#233143",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.default.endBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.default.focusColor": {
+  "light": "#97c3f3",
+  "dark": "#97c3f3",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Focus"
+ },
+ "Button.default.focusedBorderColor": {
+  "light": "#87afda",
+  "dark": "#87afda",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.default.foreground": {
+  "light": "#ffffff",
+  "dark": "#ffffff",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.default.loadingForeground": {
+  "light": "#d3d5db",
+  "dark": "#ced0d6",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.default.startBackground": {
+  "light": "#384f6b",
+  "dark": "#384f6b",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.default.startBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.disabledBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.endBackground": {
+  "light": "#414648",
+  "dark": "#414648",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.endBorderColor": {
+  "light": "#b8b8b8",
+  "dark": "#b8b8b8",
+  "class": "com/intellij/openapi/actionSystem/impl/segmentedActionBar/SegmentedBarPainter$Companion"
+ },
+ "Button.focusedBorderColor": {
+  "light": "#87afda",
+  "dark": "#87afda",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.foreground": {
+  "light": "#000000",
+  "dark": "#dfe1e5",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.installBorderColor": {
+  "light": "#55a76a",
+  "dark": "#4e8052",
+  "class": "com/intellij/air/frontend/agents/AgentCard"
+ },
+ "Button.installForeground": {
+  "light": "#208a3c",
+  "dark": "#5fad65",
+  "class": "com/intellij/air/frontend/agents/AgentCard"
+ },
+ "Button.loadingForeground": {
+  "light": "#818594",
+  "dark": "#868a91",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.startBackground": {
+  "light": "#555a5c",
+  "dark": "#555a5c",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Button"
+ },
+ "Button.startBorderColor": {
+  "light": "#bfbfbf",
+  "dark": "#bfbfbf",
+  "class": "com/intellij/openapi/actionSystem/impl/segmentedActionBar/SegmentedBarPainter$Companion"
+ },
+ "Canvas.Tooltip.background": {
+  "light": "#f7f7f7",
+  "dark": "#4a4c4c",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "Canvas.Tooltip.borderColor": {
+  "light": "#d9d9d9",
+  "dark": "#4a4a4a",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "ComboBox.ArrowButton.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Arrow"
+ },
+ "ComboBox.ArrowButton.disabledIconColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Arrow"
+ },
+ "ComboBox.ArrowButton.iconColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Arrow"
+ },
+ "ComboBox.ArrowButton.nonEditableBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Arrow"
+ },
+ "ComboBox.modifiedItemForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/application/options/schemes/EditableSchemesCombo"
+ },
+ "ComboBox.nonEditableBackground": {
+  "light": "#fcfcfc",
+  "dark": "#3c3f41",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaComboBoxUI"
+ },
+ "ComboBoxButton.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/execution/runToolbar/RunToolbarRunConfigurationsAction$createCustomComponent$1"
+ },
+ "CompletionPopup.selectionBackground": {
+  "light": "#c5dffc",
+  "dark": "#113a5c",
+  "class": "com/intellij/codeInsight/lookup/impl/LookupCellRenderer"
+ },
+ "CompletionPopup.selectionInactiveBackground": {
+  "light": "#e0e0e0",
+  "dark": "#515457",
+  "class": "com/intellij/codeInsight/lookup/impl/LookupCellRenderer"
+ },
+ "Component.borderColor": {
+  "light": "#c4c4c4",
+  "dark": "#5e6060",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/learnIde/LearnIdeContentColorsAndFonts"
+ },
+ "Component.disabledBorderColor": {
+  "light": "#87afda",
+  "dark": "#87afda",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaSliderUIThemes"
+ },
+ "Component.errorFocusColor": {
+  "light": "#e53e4d",
+  "dark": "#e53e4d",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Focus"
+ },
+ "Component.focusColor": {
+  "light": "#8ab2eb",
+  "dark": "#8ab2eb",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Focus"
+ },
+ "Component.focusedBorderColor": {
+  "light": "#87afda",
+  "dark": "#87afda",
+  "class": "com/intellij/ide/ui/laf/darcula/DarculaUIUtil"
+ },
+ "Component.inactiveErrorFocusColor": {
+  "light": "#ebbcbc",
+  "dark": "#ebbcbc",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Focus"
+ },
+ "Component.inactiveWarningFocusColor": {
+  "light": "#ffd385",
+  "dark": "#ffd385",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Focus"
+ },
+ "Component.infoForeground": {
+  "light": "#999999",
+  "dark": "#999999",
+  "class": "com/intellij/find/impl/FindPopupPanel$UsageTableCellRenderer"
+ },
+ "Component.warningFocusColor": {
+  "light": "#e2a53a",
+  "dark": "#e2a53a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Focus"
+ },
+ "Content.background": {
+  "light": "#ffffff",
+  "dark": "#2b2b2b",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "Counter.background": {
+  "light": "#9aa7b0",
+  "dark": "#000001",
+  "class": "com/intellij/ide/plugins/CountComponent"
+ },
+ "Counter.foreground": {
+  "light": "#ffffff",
+  "dark": "#3e434d",
+  "class": "com/intellij/ide/plugins/CountComponent"
+ },
+ "DataSummary.Chart.barColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/database/run/ui/table/statisticsPanel/HistogramSettings"
+ },
+ "Debugger.EvaluateExpression.background": {
+  "light": "#ffffff",
+  "dark": "#45494a",
+  "class": "com/intellij/xdebugger/impl/frame/XWatchesViewImpl"
+ },
+ "Debugger.Variables.collectingDataForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/xdebugger/impl/ui/XDebuggerUIConstants"
+ },
+ "Debugger.Variables.evaluatingExpressionForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/xdebugger/impl/ui/XDebuggerUIConstants"
+ },
+ "DefaultTabs.background": {
+  "light": "#ececec",
+  "dark": "#3c3f41",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DefaultTabs"
+ },
+ "DefaultTabs.hoverBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DefaultTabs"
+ },
+ "DefaultTabs.inactiveColoredTabBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DefaultTabs"
+ },
+ "DefaultTabs.inactiveUnderlineColor": {
+  "light": "#9ca7b8",
+  "dark": "#747a80",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DefaultTabs"
+ },
+ "DefaultTabs.underlineColor": {
+  "light": "#4083c9",
+  "dark": "#4a88c7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DefaultTabs"
+ },
+ "DragAndDrop.areaBackground": {
+  "light": "#3d7dcc",
+  "dark": "#404a57",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DragAndDrop$Area"
+ },
+ "DragAndDrop.areaForeground": {
+  "light": "#787878",
+  "dark": "#bababa",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DragAndDrop$Area"
+ },
+ "DragAndDrop.borderColor": {
+  "light": "#2675bf",
+  "dark": "#2f65ca",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DragAndDrop"
+ },
+ "DragAndDrop.rowBackground": {
+  "light": "#75bf26",
+  "dark": "#65ca33",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$DragAndDrop"
+ },
+ "Editor.ToolTip.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/database/run/ui/table/statisticsPanel/HistogramSettings"
+ },
+ "Editor.ToolTip.errorBackground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Editor$Tooltip"
+ },
+ "Editor.ToolTip.foreground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/database/run/ui/table/statisticsPanel/HistogramSettings"
+ },
+ "Editor.ToolTip.selectionBackground": {
+  "light": "#ebecf0",
+  "dark": "#2b2d30",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Editor$Tooltip"
+ },
+ "Editor.ToolTip.successBackground": {
+  "light": "#f2fcf3",
+  "dark": "#253627",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Editor$Tooltip"
+ },
+ "Editor.ToolTip.warningBackground": {
+  "light": "#fff6de",
+  "dark": "#3d3223",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Editor$Tooltip"
+ },
+ "Editor.Toolbar.borderColor": {
+  "light": "#ebecf0",
+  "dark": "#43454a",
+  "class": "com/intellij/ide/actions/ui/ideScaleIndicator/IdeScaleIndicatorManager"
+ },
+ "Editor.foreground": {
+  "light": "#505050",
+  "dark": "#a0a0a0",
+  "class": "com/intellij/openapi/fileEditor/impl/EditorEmptyTextPainter"
+ },
+ "EditorTabs.inactiveMaskColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ui/tabs/impl/JBEditorTabsPainter"
+ },
+ "EditorTabs.selectedBackground": {
+  "light": "#ffffff",
+  "dark": "#515658",
+  "class": "com/intellij/ui/tabs/impl/JBEditorTabsPainter"
+ },
+ "EditorTabs.underlineColor": {
+  "light": "#439eb8",
+  "dark": "#439eb8",
+  "class": "com/intellij/ui/tabs/impl/JBEditorTabsPainter"
+ },
+ "EditorTabs.underlinedTabInactiveForeground": {
+  "light": "#000000",
+  "dark": "#ffffff",
+  "class": "com/intellij/openapi/application/impl/islands/IslandsTabTheme"
+ },
+ "FlameGraph.JVMBackground": {
+  "light": "#fcdd95",
+  "dark": "#bf9f63",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$JAVA"
+ },
+ "FlameGraph.JVMFocusBackground": {
+  "light": "#e3c888",
+  "dark": "#a68a56",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$JAVA"
+ },
+ "FlameGraph.JVMFocusSearchNotMatchedBackground": {
+  "light": "#ab986c",
+  "dark": "#746549",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$JAVA"
+ },
+ "FlameGraph.JVMSearchNotMatchedBackground": {
+  "light": "#c4af7c",
+  "dark": "#857454",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$JAVA"
+ },
+ "FlameGraph.Tooltip.foreground": {
+  "light": "#000000",
+  "dark": "#bbbbbb",
+  "class": "com/intellij/profiler/ui/flamegraph/FlameGraphTooltipColors"
+ },
+ "FlameGraph.Tooltip.scaleBackground": {
+  "light": "#ebebeb",
+  "dark": "#363839",
+  "class": "com/intellij/profiler/ui/flamegraph/FlameGraphTooltipColors"
+ },
+ "FlameGraph.Tooltip.scaleColor": {
+  "light": "#a7d1ec",
+  "dark": "#365880",
+  "class": "com/intellij/profiler/ui/flamegraph/FlameGraphTooltipColors"
+ },
+ "FlameGraph.nativeBackground": {
+  "light": "#aad8f2",
+  "dark": "#82acc8",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$DEFAULT"
+ },
+ "FlameGraph.nativeFocusBackground": {
+  "light": "#9fcae0",
+  "dark": "#7196ae",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$DEFAULT"
+ },
+ "FlameGraph.nativeFocusSearchNotMatchedBackground": {
+  "light": "#7c9bb0",
+  "dark": "#596c78",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$DEFAULT"
+ },
+ "FlameGraph.nativeSearchNotMatchedBackground": {
+  "light": "#8eb2ca",
+  "dark": "#667c8a",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$DEFAULT"
+ },
+ "FlameGraph.parentBackground": {
+  "light": "#dbdbdb",
+  "dark": "#a3a3a3",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$PARENT"
+ },
+ "FlameGraph.parentFocusBackground": {
+  "light": "#c7c7c7",
+  "dark": "#8f8f8f",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$PARENT"
+ },
+ "FlameGraph.parentFocusSearchNotMatchedBackground": {
+  "light": "#ababab",
+  "dark": "#6e6e6e",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$PARENT"
+ },
+ "FlameGraph.parentSearchNotMatchedBackground": {
+  "light": "#8f8f8f",
+  "dark": "#616161",
+  "class": "com/intellij/profiler/ui/flamechart/FlameChartColors$PARENT"
+ },
+ "GotItTooltip.Header.foreground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "GotItTooltip.secondaryActionForeground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "GotItTooltip.shortcutBackground": {
+  "light": "#e6eef7",
+  "dark": "#333638",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "GotItTooltip.shortcutForeground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "GotItTooltip.stepForeground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "Group.separatorColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ui/TitledSeparator"
+ },
+ "GutterTooltip.infoForeground": {
+  "light": "#787878",
+  "dark": "#878787",
+  "class": "com/intellij/codeInsight/daemon/impl/GutterTooltipBuilder"
+ },
+ "HelpBrowser.UserMessage.background": {
+  "light": "#e8e9eb",
+  "dark": "#3a3c3e",
+  "class": "com/intellij/air/frontend/session/view/gui/ui/util/ThreadGuiColors"
+ },
+ "IconBadge.errorBackground": {
+  "light": "#e55765",
+  "dark": "#db5c5c",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$IconBadge"
+ },
+ "IconBadge.infoBackground": {
+  "light": "#588cf3",
+  "dark": "#548af7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$IconBadge"
+ },
+ "IconBadge.newUiBackground": {
+  "light": "#8f5ae5",
+  "dark": "#8f5ae5",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$IconBadge"
+ },
+ "IconBadge.successBackground": {
+  "light": "#55a76a",
+  "dark": "#5fad65",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$IconBadge"
+ },
+ "IconBadge.warningBackground": {
+  "light": "#ffaf0f",
+  "dark": "#f2c55c",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$IconBadge"
+ },
+ "InformationHint.borderColor": {
+  "light": "#e0e0e0",
+  "dark": "#5c5e61",
+  "class": "com/intellij/codeInsight/hint/HintUtil"
+ },
+ "Kubernetes.ServiceView.pendingPodBadgeBackground": {
+  "light": "#6c707e",
+  "dark": "#ced0d6",
+  "class": "com/intellij/kubernetes/view/nodes/workloads/KubernetesPodServiceViewContributorDescriptorKt"
+ },
+ "Label.disabledForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/UIUtil"
+ },
+ "Label.errorForeground": {
+  "light": "#c72e2e",
+  "dark": "#ff6b68",
+  "class": "com/intellij/air/frontend/session/view/gui/mcp/render/api/McpErrorView"
+ },
+ "Label.foreground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Label"
+ },
+ "Label.infoForeground": {
+  "light": "#787878",
+  "dark": "#878787",
+  "class": "com/intellij/ide/plugins/newui/ListPluginComponent"
+ },
+ "Label.selectedDisabledForeground": {
+  "light": "#999999",
+  "dark": "#999999",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Label"
+ },
+ "Label.selectedForeground": {
+  "light": "#ffffff",
+  "dark": "#ffffff",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Label"
+ },
+ "Label.successForeground": {
+  "light": "#368746",
+  "dark": "#50a661",
+  "class": "com/intellij/util/ui/UIUtil"
+ },
+ "Label.warningForeground": {
+  "light": "#a46704",
+  "dark": "#ba9752",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Label"
+ },
+ "Lesson.Badge.newLessonBackground": {
+  "light": "#62b543",
+  "dark": "#499c54",
+  "class": "training/ui/UISettings"
+ },
+ "Lesson.Badge.newLessonForeground": {
+  "light": "#ffffff",
+  "dark": "#fefefe",
+  "class": "training/ui/UISettings"
+ },
+ "Lesson.shortcutBackground": {
+  "light": "#e6eef7",
+  "dark": "#333638",
+  "class": "com/intellij/ide/ui/text/parts/ShortcutTextPart"
+ },
+ "Lesson.stepNumberForeground": {
+  "light": "#808080",
+  "dark": "#fefefe",
+  "class": "training/ui/UISettings"
+ },
+ "LicenseDialog.LicenseList.licenseDetailsForeground": {
+  "light": "#c9ccd6",
+  "dark": "#9da0a8",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog$LicenseList"
+ },
+ "LicenseDialog.LicenseList.licenseIdForeground": {
+  "light": "#d3d5db",
+  "dark": "#43454a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog$LicenseList"
+ },
+ "LicenseDialog.LicenseList.separatorColor": {
+  "light": "#d3d5db",
+  "dark": "#43454a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog$LicenseList"
+ },
+ "LicenseDialog.LicenseServer.separatorColor": {
+  "light": "#d3d5db",
+  "dark": "#43454a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog$LicenseServer"
+ },
+ "LicenseDialog.freeBadgeBackground": {
+  "light": "#208a3c",
+  "dark": "#57965c",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog"
+ },
+ "LicenseDialog.freeBadgeForeground": {
+  "light": "#ffffff",
+  "dark": "#1e1f22",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog"
+ },
+ "LicenseDialog.separatorColor": {
+  "light": "#ebecf0",
+  "dark": "#393b40",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog"
+ },
+ "LicenseDialog.termsAndConditionsForeground": {
+  "light": "#818594",
+  "dark": "#6f737a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog"
+ },
+ "LicenseDialog.waitingLabelForeground": {
+  "light": "#818594",
+  "dark": "#6f737a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$LicenseDialog"
+ },
+ "Link.activeForeground": {
+  "light": "#589df6",
+  "dark": "#589df6",
+  "class": "com/intellij/kubernetes/logs/KubernetesLogEntryKt"
+ },
+ "Link.secondaryForeground": {
+  "light": "#779dbd",
+  "dark": "#5676a0",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Link$Foreground"
+ },
+ "List.Tag.background": {
+  "light": "#ebecf0",
+  "dark": "#393b40",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$List$Tag"
+ },
+ "List.Tag.foreground": {
+  "light": "#494b57",
+  "dark": "#a8adbd",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$List$Tag"
+ },
+ "List.hoverBackground": {
+  "light": "#edf3fe",
+  "dark": "#464a4d",
+  "class": "com/intellij/air/sdd/wysiwyg/WysMdLafStyleHandler"
+ },
+ "List.selectionBackground": {
+  "light": "#4874d7",
+  "dark": "#1e67ce",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "MainToolbar.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/openapi/wm/impl/headertoolbar/FilenameToolbarWidgetAction"
+ },
+ "MainWindow.FullScreeControl.Background": {
+  "light": "#7a7b80",
+  "dark": "#575a5c",
+  "class": "com/intellij/ui/mac/MacFullScreenControlsManager"
+ },
+ "MainWindow.Tab.background": {
+  "light": "#000000",
+  "dark": "#131314",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.borderColor": {
+  "light": "#383a42",
+  "dark": "#1e1f22",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.foreground": {
+  "light": "#a8adbd",
+  "dark": "#b4b8bf",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.hoverBackground": {
+  "light": "#171717",
+  "dark": "#1a1a1b",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.hoverForeground": {
+  "light": "#c9ccd6",
+  "dark": "#ced0d6",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.selectedBackground": {
+  "light": "#27282e",
+  "dark": "#2b2d30",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.selectedForeground": {
+  "light": "#c9ccd6",
+  "dark": "#ced0d6",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.selectedInactiveBackground": {
+  "light": "#383a42",
+  "dark": "#393b40",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$MainWindow$Tab"
+ },
+ "MainWindow.Tab.separatorColor": {
+  "light": "#d3d5db",
+  "dark": "#43454a",
+  "class": "com/intellij/openapi/application/impl/islands/IslandsUICustomization"
+ },
+ "MemoryIndicator.allocatedBackground": {
+  "light": "#d7d7d7",
+  "dark": "#5a5a5a",
+  "class": "com/intellij/openapi/wm/impl/status/MemoryUsagePanel$MemoryUsagePanelImpl"
+ },
+ "MemoryIndicator.usedBackground": {
+  "light": "#b9b9b9",
+  "dark": "#6e6e6e",
+  "class": "com/intellij/openapi/wm/impl/status/MemoryUsagePanel$MemoryUsagePanelImpl"
+ },
+ "Menu.borderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaPopupMenuBorder"
+ },
+ "MenuBar.borderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaMenuBarBorder"
+ },
+ "MenuItem.background": {
+  "light": "#ffffff",
+  "dark": "#ffffff",
+  "class": "com/intellij/openapi/actionSystem/impl/ActionMenu$Companion"
+ },
+ "MlModelBinding.Viewer.CodeEditor.background": {
+  "light": "#f1f3f4",
+  "dark": "#3d3f41",
+  "class": "com/android/tools/idea/mlkit/viewer/TfliteModelFileEditor"
+ },
+ "NavBar.borderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/platform/navbar/frontend/ui/NavBarBorder"
+ },
+ "NewClass.Panel.background": {
+  "light": "#f2f2f2",
+  "dark": "#f2f2f2",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NewClassDialog"
+ },
+ "NewClass.SearchField.background": {
+  "light": "#ffffff",
+  "dark": "#ffffff",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NewClassDialog"
+ },
+ "Notification.MoreButton.background": {
+  "light": "#e3e3e3",
+  "dark": "#3a3c3d",
+  "class": "com/intellij/notification/impl/ui/NotificationsUtil"
+ },
+ "Notification.MoreButton.foreground": {
+  "light": "#666666",
+  "dark": "#8c8c8c",
+  "class": "com/intellij/notification/impl/ui/NotificationsUtil"
+ },
+ "Notification.MoreButton.innerBorderColor": {
+  "light": "#dbdbdb",
+  "dark": "#353738",
+  "class": "com/intellij/notification/impl/NotificationsManagerImpl$14"
+ },
+ "Notification.ToolWindow.errorBackground": {
+  "light": "#ffcccc",
+  "dark": "#704745",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NotificationError"
+ },
+ "Notification.ToolWindow.errorBorderColor": {
+  "light": "#d69696",
+  "dark": "#998a8a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NotificationError"
+ },
+ "Notification.ToolWindow.informativeBackground": {
+  "light": "#baeeba",
+  "dark": "#33412e",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NotificationInfo"
+ },
+ "Notification.ToolWindow.informativeBorderColor": {
+  "light": "#a0bf9d",
+  "dark": "#85997a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NotificationInfo"
+ },
+ "Notification.ToolWindow.warningBackground": {
+  "light": "#f9f78e",
+  "dark": "#5a5221",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NotificationWarning"
+ },
+ "Notification.ToolWindow.warningBorderColor": {
+  "light": "#bab824",
+  "dark": "#a69f63",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NotificationWarning"
+ },
+ "Notification.WelcomeScreen.separatorColor": {
+  "light": "#d0d0d0",
+  "dark": "#717375",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeBalloonLayoutImpl$BalloonPanel"
+ },
+ "Notification.background": {
+  "light": "#f2f2f2",
+  "dark": "#4e5052",
+  "class": "com/intellij/notification/impl/NotificationsManagerImpl"
+ },
+ "Notification.borderColor": {
+  "light": "#b2b2b2",
+  "dark": "#565a5c",
+  "class": "com/intellij/notification/impl/NotificationsManagerImpl"
+ },
+ "Notification.errorBackground": {
+  "light": "#f5e6e7",
+  "dark": "#593d41",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Notification$Error"
+ },
+ "Notification.errorBorderColor": {
+  "light": "#e0a8a9",
+  "dark": "#73454b",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Notification$Error"
+ },
+ "NotificationsToolwindow.newNotification.hoverBackground": {
+  "light": "#e6eef7",
+  "dark": "#45494a",
+  "class": "com/intellij/notification/impl/ui/NotificationComponent"
+ },
+ "Panel.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/openapi/actionSystem/impl/segmentedActionBar/SegmentedBarPainter$Companion"
+ },
+ "Panel.mouseShortcutBackground": {
+  "light": "#f5f5f5",
+  "dark": "#4b4f52",
+  "class": "com/intellij/openapi/keymap/impl/ui/MouseShortcutPanel"
+ },
+ "ParameterInfo.currentParameterForeground": {
+  "light": "#1d1d1d",
+  "dark": "#e8e8e8",
+  "class": "com/intellij/codeInsight/hint/ParameterInfoComponent"
+ },
+ "ParameterInfo.disabledForeground": {
+  "light": "#a8a8a8",
+  "dark": "#777777",
+  "class": "com/intellij/codeInsight/hint/ParameterInfoComponent"
+ },
+ "ParameterInfo.foreground": {
+  "light": "#1d1d1d",
+  "dark": "#bbbbbb",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/learnIde/LearnIdeContentColorsAndFonts"
+ },
+ "ParameterInfo.infoForeground": {
+  "light": "#787878",
+  "dark": "#878787",
+  "class": "com/intellij/codeInsight/hint/ParameterInfoComponent"
+ },
+ "PillButton.blueBorderColor": {
+  "light": "#538af9",
+  "dark": "#538af9",
+  "class": "com/intellij/ui/components/PillButton$Companion$BLUE$1"
+ },
+ "PillButton.blueForeground": {
+  "light": "#2f5eb9",
+  "dark": "#71a1fe",
+  "class": "com/intellij/ui/components/PillButton$Companion$BLUE$1"
+ },
+ "PillButton.blueHoverBackground": {
+  "light": "#e3ebfe",
+  "dark": "#233558",
+  "class": "com/intellij/ui/components/PillButton$Companion$BLUE$1"
+ },
+ "PillButton.blueHoverBorderColor": {
+  "light": "#538af9",
+  "dark": "#538af9",
+  "class": "com/intellij/ui/components/PillButton$Companion$BLUE$1"
+ },
+ "PillButton.blueHoverForeground": {
+  "light": "#2f5eb9",
+  "dark": "#71a1fe",
+  "class": "com/intellij/ui/components/PillButton$Companion$BLUE$1"
+ },
+ "Plugins.Button.installFocusedBackground": {
+  "light": "#e1f6da",
+  "dark": "#e1f6da",
+  "class": "com/intellij/ide/plugins/newui/InstallButton"
+ },
+ "Plugins.ScreenshotPagination.CurrentImage.fillColor": {
+  "light": "#6c707e",
+  "dark": "#ced0d6",
+  "class": "com/intellij/ide/plugins/newui/PluginImagesComponent"
+ },
+ "Plugins.SectionHeader.background": {
+  "light": "#f7f7f7",
+  "dark": "#3c3f41",
+  "class": "com/intellij/ide/plugins/newui/PluginsGroupComponent"
+ },
+ "Plugins.SectionHeader.foreground": {
+  "light": "#787878",
+  "dark": "#999999",
+  "class": "com/intellij/ide/plugins/newui/PluginsGroupComponent"
+ },
+ "Plugins.disabledForeground": {
+  "light": "#b1b1b1",
+  "dark": "#696969",
+  "class": "com/intellij/ide/plugins/newui/ListPluginComponent"
+ },
+ "Plugins.eapTagBackground": {
+  "light": "#f2d2cf",
+  "dark": "#f2d2cf",
+  "class": "com/intellij/ide/plugins/newui/TagComponent"
+ },
+ "Plugins.hoverBackground": {
+  "light": "#edf6fe",
+  "dark": "#464a4d",
+  "class": "com/intellij/ide/plugins/newui/ListPluginComponent"
+ },
+ "Plugins.lightSelectionBackground": {
+  "light": "#edf6fe",
+  "dark": "#464a4d",
+  "class": "com/intellij/ide/plugins/newui/ListPluginComponent"
+ },
+ "Plugins.paidTagBackground": {
+  "light": "#d8edf8",
+  "dark": "#3e505c",
+  "class": "com/intellij/ide/plugins/newui/TagComponent"
+ },
+ "Plugins.suggestedLabelBackground": {
+  "light": "#f2fcf3",
+  "dark": "#253627",
+  "class": "com/intellij/ide/plugins/newui/SuggestedComponent"
+ },
+ "Plugins.tagBackground": {
+  "light": "#eaeaec",
+  "dark": "#4d4d4d",
+  "class": "com/intellij/ide/plugins/newui/TagComponent"
+ },
+ "Plugins.tagForeground": {
+  "light": "#787878",
+  "dark": "#999999",
+  "class": "com/intellij/ide/plugins/newui/TagComponent"
+ },
+ "Plugins.trialTagBackground": {
+  "light": "#dbe8dd",
+  "dark": "#45574e",
+  "class": "com/intellij/ide/plugins/newui/TagComponent"
+ },
+ "Plugins.ultimateTagForeground": {
+  "light": "#222222",
+  "dark": "#ffffff",
+  "class": "com/intellij/ide/plugins/newui/TagComponent"
+ },
+ "Popup.Advertiser.borderColor": {
+  "light": "#878787",
+  "dark": "#878787",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Advertiser"
+ },
+ "Popup.Header.activeBackground": {
+  "light": "#e6e6e6",
+  "dark": "#e6e6e6",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Popup.Header.inactiveBackground": {
+  "light": "#ededed",
+  "dark": "#ededed",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Popup.Toolbar.background": {
+  "light": "#f7f7f7",
+  "dark": "#f7f7f7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Popup.Toolbar.borderColor": {
+  "light": "#f7f7f7",
+  "dark": "#f7f7f7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Popup.background": {
+  "light": "#ffffff",
+  "dark": "#3c3f41",
+  "class": "com/intellij/air/sdd/wysiwyg/WysMdLafStyleHandler"
+ },
+ "Popup.borderColor": {
+  "light": "#808080",
+  "dark": "#808080",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Popup.inactiveBorderColor": {
+  "light": "#aaaaaa",
+  "dark": "#aaaaaa",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Popup.separatorColor": {
+  "light": "#d5d6da",
+  "dark": "#515357",
+  "class": "com/intellij/air/sdd/wysiwyg/WysMdLafStyleHandler"
+ },
+ "Popup.separatorForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Popup"
+ },
+ "Profiler.trackBackground": {
+  "light": "#ffffff",
+  "dark": "#323232",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "ProgressBar.failedColor": {
+  "light": "#e55765",
+  "dark": "#9c4e4e",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.failedEndColor": {
+  "light": "#fb8f89",
+  "dark": "#f4a2a0",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.indeterminateEndColor": {
+  "light": "#808080",
+  "dark": "#838383",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.indeterminateStartColor": {
+  "light": "#c4c4c4",
+  "dark": "#696969",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.passedColor": {
+  "light": "#55a76a",
+  "dark": "#4e8052",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.passedEndColor": {
+  "light": "#7ee8a5",
+  "dark": "#5dc48f",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.progressColor": {
+  "light": "#808080",
+  "dark": "#a0a0a0",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.trackColor": {
+  "light": "#55a76a",
+  "dark": "#4e8052",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.warningColor": {
+  "light": "#f0a732",
+  "dark": "#d9a343",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressBar.warningEndColor": {
+  "light": "#ead2a1",
+  "dark": "#ead2a1",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ProgressBar"
+ },
+ "ProgressIcon.color": {
+  "light": "#a8adbd",
+  "dark": "#6f737a",
+  "class": "com/intellij/ui/SpinningProgressIcon"
+ },
+ "PsiViewer.referenceHighlightColor": {
+  "light": "#a8c023",
+  "dark": "#a8c023",
+  "class": "com/intellij/dev/psiViewer/PsiViewerDialog$GoToListener"
+ },
+ "Review.AI.Background": {
+  "light": "#834df0",
+  "dark": "#834df0",
+  "class": "com/intellij/collaboration/ui/util/CodeReviewColorUtil$AI"
+ },
+ "Review.LineFrame.BorderColor": {
+  "light": "#3574f0",
+  "dark": "#548af7",
+  "class": "com/intellij/collaboration/ui/util/CodeReviewColorUtil$Review$LineFrame"
+ },
+ "Review.Reaction.Background": {
+  "light": "#ebecf0",
+  "dark": "#2b2d30",
+  "class": "com/intellij/collaboration/ui/util/CodeReviewColorUtil$Reaction"
+ },
+ "RunToolbar.Debug.activeBackground": {
+  "light": "#ffe7a8",
+  "dark": "#604809",
+  "class": "com/intellij/xdebugger/impl/runToolbar/RunToolbarDebugProcessKt"
+ },
+ "RunToolbar.Profile.activeBackground": {
+  "light": "#beefff",
+  "dark": "#26527a",
+  "class": "com/intellij/profiler/RunToolbarProfileProcess"
+ },
+ "RunToolbar.Run.activeBackground": {
+  "light": "#c7ffd1",
+  "dark": "#235423",
+  "class": "com/intellij/execution/runToolbar/RunToolbarRunProcess"
+ },
+ "RunWidget.foreground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$RunWidget"
+ },
+ "RunWidget.iconColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$RunWidget"
+ },
+ "RunWidget.runIconColor": {
+  "light": "#5fad65",
+  "dark": "#5fad65",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$RunWidget"
+ },
+ "RunWidget.runningBackground": {
+  "light": "#599e5e",
+  "dark": "#599e5e",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$RunWidget"
+ },
+ "RunWidget.runningIconColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$RunWidget"
+ },
+ "RunWidget.stopBackground": {
+  "light": "#c94f4f",
+  "dark": "#c94f4f",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$RunWidget"
+ },
+ "ScreenView.selectedBorderColor": {
+  "light": "#3573f0",
+  "dark": "#548af7",
+  "class": "com/android/tools/idea/uibuilder/surface/layer/BorderLayerKt"
+ },
+ "SearchEverywhere.Advertiser.background": {
+  "light": "#f2f2f2",
+  "dark": "#f2f2f2",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.Advertiser.foreground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.Header.background": {
+  "light": "#f2f2f2",
+  "dark": "#f2f2f2",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.List.separatorColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.SearchField.background": {
+  "light": "#ffffff",
+  "dark": "#ffffff",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.SearchField.borderColor": {
+  "light": "#bdbdbd",
+  "dark": "#bdbdbd",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.SearchField.infoForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.Tab.selectedBackground": {
+  "light": "#dedede",
+  "dark": "#dedede",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchEverywhere.Tab.selectedForeground": {
+  "light": "#000000",
+  "dark": "#000000",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$BigPopup"
+ },
+ "SearchField.errorBackground": {
+  "light": "#ffcccc",
+  "dark": "#743a3a",
+  "class": "com/intellij/ui/LightColors"
+ },
+ "SearchField.errorForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/find/SearchReplaceComponent"
+ },
+ "SearchMatch.endBackground": {
+  "light": "#ffd042",
+  "dark": "#000001",
+  "class": "com/intellij/util/ui/UIUtil"
+ },
+ "SearchMatch.startBackground": {
+  "light": "#ffeaa2",
+  "dark": "#000001",
+  "class": "com/intellij/util/ui/UIUtil"
+ },
+ "SearchOption.selectedBackground": {
+  "light": "#dae4ed",
+  "dark": "#5c6164",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$SearchOption"
+ },
+ "SegmentedButton.focusedSelectedButtonColor": {
+  "light": "#dae4ed",
+  "dark": "#dae4ed",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$SegmentedButton"
+ },
+ "SegmentedButton.selectedButtonColor": {
+  "light": "#555a5c",
+  "dark": "#555a5c",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$SegmentedButton"
+ },
+ "SegmentedButton.selectedEndBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$SegmentedButton"
+ },
+ "SegmentedButton.selectedStartBorderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$SegmentedButton"
+ },
+ "Separator.separatorColor": {
+  "light": "#cdcdcd",
+  "dark": "#515151",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Separator"
+ },
+ "Shortcut.foreground": {
+  "light": "#000000",
+  "dark": "#dfe1e5",
+  "class": "com/intellij/openapi/fileEditor/impl/EditorEmptyTextPainter"
+ },
+ "SidePanel.background": {
+  "light": "#e6ebf0",
+  "dark": "#3e434c",
+  "class": "com/intellij/util/ui/UIUtil"
+ },
+ "Slider.buttonBorderColor": {
+  "light": "#a6a6a6",
+  "dark": "#393d3f",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaSliderUIThemes"
+ },
+ "Slider.buttonColor": {
+  "light": "#ffffff",
+  "dark": "#9b9e9e",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaSliderUIThemes"
+ },
+ "Slider.tickColor": {
+  "light": "#999999",
+  "dark": "#808080",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaSliderUIThemes"
+ },
+ "Slider.trackColor": {
+  "light": "#c7c7c7",
+  "dark": "#666666",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaSliderUIThemes"
+ },
+ "SpeedSearch.borderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ui/speedSearch/SpeedSearchSupply"
+ },
+ "SpeedSearch.errorForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ui/speedSearch/SpeedSearchSupply"
+ },
+ "StatusBar.LightEditBackground": {
+  "light": "#e3eefc",
+  "dark": "#2f475e",
+  "class": "com/intellij/ide/lightEdit/statusBar/LightEditStatusBarUI"
+ },
+ "StatusBar.borderColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$StatusBar"
+ },
+ "TabbedPane.contentAreaColor": {
+  "light": "#bfbfbf",
+  "dark": "#bfbfbf",
+  "class": "com/intellij/ide/ui/laf/darcula/ui/DarculaTabbedPaneUI"
+ },
+ "TabbedPane.disabledUnderlineColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$TabbedPane"
+ },
+ "TabbedPane.focusColor": {
+  "light": "#dae4ed",
+  "dark": "#dae4ed",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$TabbedPane"
+ },
+ "TabbedPane.hoverColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$TabbedPane"
+ },
+ "TabbedPane.underlineColor": {
+  "light": "#4083c9",
+  "dark": "#4083c9",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$TabbedPane"
+ },
+ "Tag.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/execution/ui/TagButton"
+ },
+ "TextField.borderColor": {
+  "light": "#bdbdbd",
+  "dark": "#646464",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$NewClassDialog"
+ },
+ "TitlePane.Button.hoverBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$CustomFrameDecorations"
+ },
+ "TitlePane.inactiveInfoForeground": {
+  "light": "#a6a6a6",
+  "dark": "#737373",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$CustomFrameDecorations"
+ },
+ "TitlePane.infoForeground": {
+  "light": "#616161",
+  "dark": "#919191",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$CustomFrameDecorations"
+ },
+ "ToggleButton.borderColor": {
+  "light": "#c0c0c0",
+  "dark": "#505050",
+  "class": "com/intellij/ui/components/OnOffButton$DefaultOnOffButtonUI"
+ },
+ "ToggleButton.buttonColor": {
+  "light": "#c8c8c8",
+  "dark": "#646464",
+  "class": "com/intellij/ui/components/OnOffButton$DefaultOnOffButtonUI"
+ },
+ "ToolTip.Actions.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Tooltip$Actions"
+ },
+ "ToolTip.Actions.infoForeground": {
+  "light": "#99a4ad",
+  "dark": "#919191",
+  "class": "com/intellij/xdebugger/impl/evaluate/quick/common/XDebuggerPopupPanel"
+ },
+ "ToolTip.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Tooltip"
+ },
+ "ToolTip.borderColor": {
+  "light": "#adadad",
+  "dark": "#636569",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Tooltip"
+ },
+ "ToolTip.foreground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Tooltip"
+ },
+ "ToolTip.infoForeground": {
+  "light": "#919191",
+  "dark": "#919191",
+  "class": "com/intellij/codeInsight/daemon/impl/DaemonTooltipRenderer"
+ },
+ "ToolTip.separatorColor": {
+  "light": "#d1d1d1",
+  "dark": "#545658",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Tooltip"
+ },
+ "ToolTip.shortcutForeground": {
+  "light": "#787878",
+  "dark": "#999999",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Tooltip"
+ },
+ "ToolWindow.Button.DragAndDrop.buttonDropBorderColor": {
+  "light": "#407bf2",
+  "dark": "#548af7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow$DragAndDrop"
+ },
+ "ToolWindow.Button.foreground": {
+  "light": "#5a5d6b",
+  "dark": "#9da0a8",
+  "class": "com/intellij/toolWindow/StripeButtonUi"
+ },
+ "ToolWindow.Button.hoverBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/toolWindow/StripeButtonUi"
+ },
+ "ToolWindow.Button.selectedBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/toolWindow/StripeButtonUi"
+ },
+ "ToolWindow.Button.selectedForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/toolWindow/StripeButtonUi"
+ },
+ "ToolWindow.DragAndDrop.areaBackground": {
+  "light": "#a0bdf8",
+  "dark": "#366acf",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow$DragAndDrop"
+ },
+ "ToolWindow.DragAndDrop.hintBackground": {
+  "light": "#d0ddfc",
+  "dark": "#7095de",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow$DragAndDrop"
+ },
+ "ToolWindow.Header.background": {
+  "light": "#e2e6ec",
+  "dark": "#e2e6ec",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow"
+ },
+ "ToolWindow.Header.inactiveBackground": {
+  "light": "#ececec",
+  "dark": "#ececec",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow"
+ },
+ "ToolWindow.Stripe.DragAndDrop.separatorColor": {
+  "light": "#407bf2",
+  "dark": "#548af7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow"
+ },
+ "ToolWindow.Stripe.separatorColor": {
+  "light": "#c9ccd6",
+  "dark": "#43454a",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$ToolWindow"
+ },
+ "Toolbar.Floating.background": {
+  "light": "#ededed",
+  "dark": "#454a4d",
+  "class": "com/intellij/openapi/editor/toolbar/floating/AbstractFloatingToolbarComponentKt"
+ },
+ "Toolbar.Floating.borderColor": {
+  "light": "#ebecf0",
+  "dark": "#43454a",
+  "class": "com/intellij/openapi/fileEditor/impl/zoomIndicator/ZoomIndicatorManager"
+ },
+ "Tooltip.Learning.background": {
+  "light": "#1071e8",
+  "dark": "#0e62cf",
+  "class": "training/ui/UISettings"
+ },
+ "Tooltip.Learning.borderColor": {
+  "light": "#1071e8",
+  "dark": "#0e62cf",
+  "class": "training/ui/UISettings"
+ },
+ "Tooltip.Learning.foreground": {
+  "light": "#f5f5f5",
+  "dark": "#f5f5f5",
+  "class": "training/ui/UISettings"
+ },
+ "Tooltip.Learning.spanBackground": {
+  "light": "#0d5cbd",
+  "dark": "#0250b0",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "Tooltip.Learning.spanForeground": {
+  "light": "#f5f5f5",
+  "dark": "#f5f5f5",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$GotItTooltip"
+ },
+ "Tooltip.Learning.stepNumberForeground": {
+  "light": "#6ca6ed",
+  "dark": "#6a9dde",
+  "class": "training/ui/UISettings"
+ },
+ "Tree.errorForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/openapi/options/newEditor/SettingsTreeView"
+ },
+ "Tree.modifiedItemForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/openapi/options/newEditor/SettingsTreeView"
+ },
+ "UIDesigner.Activity.borderColor": {
+  "light": "#a7a7a7",
+  "dark": "#2d2f31",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Canvas.background": {
+  "light": "#f5f5f5",
+  "dark": "#2d2f31",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "UIDesigner.Component.background": {
+  "light": "#fafafa",
+  "dark": "#515658",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Component.borderColor": {
+  "light": "#a7a7a7",
+  "dark": "#2d2f31",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Component.foreground": {
+  "light": "#a7a7a7",
+  "dark": "#888888",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Component.hoverBorderColor": {
+  "light": "#a7a7a7",
+  "dark": "#a1a1a1",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Connector.hoverBorderColor": {
+  "light": "#a7a7a7",
+  "dark": "#888888",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Label.foreground": {
+  "light": "#656565",
+  "dark": "#bababb",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.List.selectionBackground": {
+  "light": null,
+  "dark": null,
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Panel.background": {
+  "light": "#fcfcfc",
+  "dark": "#313435",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "UIDesigner.Panel.borderColor": {
+  "light": "#c9c9c9",
+  "dark": "#282828",
+  "class": "com/android/tools/adtui/common/StudioColorsKt"
+ },
+ "UIDesigner.Placeholder.background": {
+  "light": "#fdfdfd",
+  "dark": "#515658",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Placeholder.borderColor": {
+  "light": "#cccccc",
+  "dark": "#3f4244",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Placeholder.foreground": {
+  "light": "#cccccc",
+  "dark": "#888888",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.Placeholder.selectedForeground": {
+  "light": "#1886f7",
+  "dark": "#9ccdff",
+  "class": "com/android/tools/idea/naveditor/scene/NavColors"
+ },
+ "UIDesigner.highStroke.foreground": {
+  "light": "#b0b0b0",
+  "dark": "#6f7171",
+  "class": "com/android/tools/idea/uibuilder/handlers/constraint/WidgetConstraintPanel"
+ },
+ "UIDesigner.percent.foreground": {
+  "light": "#c0c0c0",
+  "dark": "#808080",
+  "class": "com/android/tools/idea/uibuilder/handlers/constraint/WidgetConstraintPanel"
+ },
+ "UIDesigner.stroke.acceleratorForeground": {
+  "light": "#8a8a8a",
+  "dark": "#808080",
+  "class": "com/android/tools/idea/uibuilder/handlers/constraint/WidgetConstraintPanel"
+ },
+ "UnattendedHostStatus.dangerBackground": {
+  "light": "#e05555",
+  "dark": "#e05555b2",
+  "class": "com/jetbrains/rd/ui/util/StatusLabelColors"
+ },
+ "UnattendedHostStatus.dangerForeground": {
+  "light": "#ffffffb2",
+  "dark": "#ffffffb2",
+  "class": "com/jetbrains/rd/ui/util/StatusLabelColors"
+ },
+ "UnattendedHostStatus.normalForeground": {
+  "light": "#ffffffb2",
+  "dark": "#ffffffb2",
+  "class": "com/jetbrains/rd/ui/util/StatusLabelColors"
+ },
+ "UnattendedHostStatus.warningBackground": {
+  "light": "#f4af3db2",
+  "dark": "#f4af3db2",
+  "class": "com/jetbrains/rd/ui/util/StatusLabelColors"
+ },
+ "UnattendedHostStatus.warningForeground": {
+  "light": "#000000b2",
+  "dark": "#ffffffb2",
+  "class": "com/jetbrains/rd/ui/util/StatusLabelColors"
+ },
+ "UrlAssistant.Banner.infoBackground": {
+  "light": "#eaf0fb",
+  "dark": "#25324d",
+  "class": "com/google/urlassistant/ai/ui/AiAssistanceBanner"
+ },
+ "UrlAssistant.Text.errorForeground": {
+  "light": "#c7222d",
+  "dark": "#ff5261",
+  "class": "com/google/urlassistant/ui/UiUtils"
+ },
+ "UrlAssistant.Text.warningForeground": {
+  "light": "#b05000",
+  "dark": "#f2c55c",
+  "class": "com/google/urlassistant/ui/UiUtils"
+ },
+ "ValidationTooltip.errorBackground": {
+  "light": "#f5e6e7",
+  "dark": "#f5e6e7",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Validator"
+ },
+ "ValidationTooltip.errorBorderColor": {
+  "light": "#e0a8a9",
+  "dark": "#e0a8a9",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Validator"
+ },
+ "ValidationTooltip.errorForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ui/dsl/builder/components/ValidationTooltipKt"
+ },
+ "ValidationTooltip.warningBackground": {
+  "light": "#f5f0e6",
+  "dark": "#f5f0e6",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Validator"
+ },
+ "ValidationTooltip.warningBorderColor": {
+  "light": "#e0cea8",
+  "dark": "#e0cea8",
+  "class": "com/intellij/util/ui/JBUI$CurrentTheme$Validator"
+ },
+ "ValidationTooltip.warningForeground": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/ui/dsl/builder/components/ValidationTooltipKt"
+ },
+ "VersionControl.FileHistory.Commit.selectedBranchBackground": {
+  "light": "#fffee4",
+  "dark": "#49493f",
+  "class": "com/intellij/vcs/log/history/FileHistoryUi$RevisionHistoryHighlighter"
+ },
+ "VersionControl.HgLog.closedBranchIconColor": {
+  "light": "#823139",
+  "dark": "#ff5f6f",
+  "class": "org/zmlx/hg4idea/log/HgRefManager"
+ },
+ "VersionControl.HgLog.localTagIconColor": {
+  "light": "#009090",
+  "dark": "#00f3f3",
+  "class": "org/zmlx/hg4idea/log/HgRefManager"
+ },
+ "VersionControl.HgLog.mqTagIconColor": {
+  "light": "#002f90",
+  "dark": "#0055ff",
+  "class": "org/zmlx/hg4idea/log/HgRefManager"
+ },
+ "VersionControl.Log.Commit.unmatchedForeground": {
+  "light": "#808080",
+  "dark": "#606060",
+  "class": "com/intellij/vcs/log/ui/highlighters/MergeCommitsHighlighter"
+ },
+ "VersionControl.MarkerPopup.borderColor": {
+  "light": "#cecece",
+  "dark": "#4b4b4b",
+  "class": "com/intellij/openapi/vcs/ex/LineStatusMarkerPopupPanel"
+ },
+ "VersionControl.Merge.Badge.infoBackground": {
+  "light": "#5a5d6b29",
+  "dark": "#b4b8bf33",
+  "class": "com/intellij/openapi/vcs/merge/flow/IterativeMergeFlowDelegateKt"
+ },
+ "VersionControl.Merge.Badge.infoForeground": {
+  "light": "#5a5d6b",
+  "dark": "#b4b8bf",
+  "class": "com/intellij/openapi/vcs/merge/flow/IterativeMergeFlowDelegateKt"
+ },
+ "VersionControl.Merge.Badge.modifiedItemBackground": {
+  "light": "#3574f029",
+  "dark": "#35538fcc",
+  "class": "com/intellij/openapi/vcs/merge/flow/IterativeMergeFlowDelegateKt"
+ },
+ "VersionControl.Merge.Badge.modifiedItemForeground": {
+  "light": "#2e55a3",
+  "dark": "#d1e0ff",
+  "class": "com/intellij/openapi/vcs/merge/flow/IterativeMergeFlowDelegateKt"
+ },
+ "VersionControl.RefLabel.bookmarkBackground": {
+  "light": "#f4af3d",
+  "dark": "#d9a343",
+  "class": "com/intellij/vcs/log/ui/render/BookmarkIcon"
+ },
+ "VersionControl.RefLabel.foreground": {
+  "light": "#7a7a7a",
+  "dark": "#909090",
+  "class": "com/intellij/openapi/vcs/changes/ui/BranchPresentation"
+ },
+ "WelcomeScreen.Banner.background": {
+  "light": "#f2f2f2",
+  "dark": "#3c3f41",
+  "class": "com/intellij/openapi/wm/BannerStartPagePromoter"
+ },
+ "WelcomeScreen.Details.background": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ },
+ "WelcomeScreen.Projects.actions.background": {
+  "light": "#dcedfe",
+  "dark": "#3c5c86",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ },
+ "WelcomeScreen.Projects.actions.selectionBackground": {
+  "light": "#3587e5",
+  "dark": "#326fc1",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ },
+ "WelcomeScreen.Projects.actions.selectionBorderColor": {
+  "light": "#3574f0",
+  "dark": "#3574f0",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ },
+ "WelcomeScreen.SidePanel.background": {
+  "light": "#f2f2f2",
+  "dark": "#3c3f41",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ },
+ "WelcomeScreen.background": {
+  "light": "#f7f7f7",
+  "dark": "#45474a",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ },
+ "WelcomeScreen.borderColor": {
+  "light": "#bebebe",
+  "dark": "#555555",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.captionBackground": {
+  "light": "#d2d2d2",
+  "dark": "#4b4b4b",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.captionForeground": {
+  "light": "#000000",
+  "dark": "#c5c5c5",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.footerBackground": {
+  "light": "#d2d2d2",
+  "dark": "#4b4b4b",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.footerForeground": {
+  "light": "#000000",
+  "dark": "#c5c5c5",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.groupIconBorderColor": {
+  "light": "#bebebe",
+  "dark": "#373737",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.headerBackground": {
+  "light": "#dcdcdc",
+  "dark": "#4b4b4b",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.headerForeground": {
+  "light": "#505050",
+  "dark": "#c5c5c5",
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenColors"
+ },
+ "WelcomeScreen.separatorColor": {
+  "light": null,
+  "dark": null,
+  "class": "com/intellij/openapi/wm/impl/welcomeScreen/WelcomeScreenUIManager"
+ }
+}
