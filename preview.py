@@ -460,6 +460,112 @@ h1 b{{font-weight:700}}
 </body></html>'''
 
 
+# ---------------------------------------------------------------- slideshow
+
+SLIDES = ['dark-default', 'dark-dimmed', 'dark', 'dark-colorblind', 'dark-tritanopia',
+          'dark-high-contrast', 'light-default', 'light', 'light-colorblind',
+          'light-tritanopia', 'light-high-contrast']
+SLIDE_MS = 2500
+BANNER_MS = 4000
+WIPE_MS, WIPE_STEPS = 600, 12   # left-to-right wipe between slides
+
+
+def png_chunks(data):
+    assert data[:8] == b'\x89PNG\r\n\x1a\n'
+    import struct
+    i, out = 8, []
+    while i < len(data):
+        n, = struct.unpack('>I', data[i:i + 4])
+        out.append((data[i + 4:i + 8], data[i + 8:i + 8 + n]))
+        i += 12 + n
+    return out
+
+
+def wipe_frames(images, scale_w):
+    """Crop, in headless Chrome, the first image whole and then for each slide (wrapping back to
+    the first) the vertical strips that wipe it in from left to right. Returns [(png, x)]."""
+    import base64
+    import tempfile
+    ease = lambda t: 4 * t ** 3 if t < .5 else 1 - (-2 * t + 2) ** 3 / 2
+    xs = sorted({round(scale_w * ease(k / WIPE_STEPS)) for k in range(WIPE_STEPS + 1)})
+    srcs = []
+    for p in images:
+        with open(p, 'rb') as f:
+            srcs.append('data:image/png;base64,' + base64.b64encode(f.read()).decode())
+    # <img>s hold the load event, so cropping in onload runs before Chrome dumps the DOM
+    js = f'''
+onload = () => {{
+  const imgs = [...document.images], xs = {json.dumps(xs)};
+  const crop = (img, x, w) => {{
+    const c = document.createElement('canvas'); c.width = w; c.height = img.naturalHeight;
+    c.getContext('2d').drawImage(img, x, 0, w, c.height, 0, 0, w, c.height);
+    return [c.toDataURL('image/png'), x];
+  }};
+  const out = [crop(imgs[0], 0, imgs[0].naturalWidth)];
+  for (let j = 1; j <= imgs.length; j++)
+    for (let k = 0; k + 1 < xs.length; k++)
+      out.push(crop(imgs[j % imgs.length], xs[k], xs[k + 1] - xs[k]));
+  document.body.textContent = JSON.stringify(out);
+}};'''
+    tags = ''.join(f'<img src="{u}">' for u in srcs)
+    with tempfile.TemporaryDirectory() as tmp:
+        hp = os.path.join(tmp, 'wipe.html')
+        with open(hp, 'w') as f:
+            f.write(f'<!doctype html><body>{tags}<script>{js}</script>')
+        r = subprocess.run([CHROME, f'--user-data-dir={tmp}/prof', '--headless=new', '--disable-gpu',
+                            '--dump-dom', 'file://' + hp],
+                           capture_output=True, text=True)
+    m = re.search(r'<body>(\[.*\])', r.stdout, re.S)
+    if not m:
+        raise SystemExit('Chrome failed to crop the slideshow frames')
+    frames = [(base64.b64decode(u.split(',', 1)[1]), x) for u, x in json.loads(html.unescape(m.group(1)))]
+    return frames, len(xs) - 1
+
+
+def apng(frames, dest, delays_ms):
+    """Write [(png, x)] as a looping APNG from each PNG's filtered rows. The first
+    frame is the full canvas; later ones are full-height strips at x, drawn over it."""
+    import struct
+    import zlib
+
+    def chunk(typ, data):
+        return struct.pack('>I', len(data)) + typ + data + struct.pack('>I', zlib.crc32(typ + data))
+
+    parsed = [png_chunks(p) for p, _ in frames]
+    ihdr = parsed[0][0][1]
+    out = [b'\x89PNG\r\n\x1a\n', chunk(b'IHDR', ihdr),
+           chunk(b'acTL', struct.pack('>II', len(frames), 0))]
+    seq = 0
+    for n, (cs, (_, x)) in enumerate(zip(parsed, frames)):
+        w, h = struct.unpack('>II', cs[0][1][:8])
+        if cs[0][1][8:] != ihdr[8:]:
+            raise SystemExit(f'frame {n}: bit depth or color type differs from frame 0')
+        # fcTL: seq, w, h, x, y, delay num/den, dispose none, blend source
+        out.append(chunk(b'fcTL', struct.pack('>IIIIIHHBB', seq, w, h, x, 0, delays_ms[n], 1000, 0, 0)))
+        seq += 1
+        # Chrome's canvas encoder compresses lightly; recompress the (still filtered) rows
+        data = zlib.compress(zlib.decompress(b''.join(d for t, d in cs if t == b'IDAT')), 9)
+        if n == 0:
+            out.append(chunk(b'IDAT', data))
+        else:
+            out.append(chunk(b'fdAT', struct.pack('>I', seq) + data))
+            seq += 1
+    out.append(chunk(b'IEND', b''))
+    with open(dest, 'wb') as f:
+        f.write(b''.join(out))
+
+
+def slideshow(images, holds, dest, width):
+    """Loop over images, holding each for holds[i] ms, with a wipe between them."""
+    frames, steps = wipe_frames(images, width)
+    step = WIPE_MS // steps
+    delays = [holds[0]]
+    for j in range(1, len(images) + 1):
+        # the wipe back to the first image ends on frame 0 itself, which then holds
+        delays += [step] * (steps - 1) + [holds[j] if j < len(images) else step]
+    apng(frames, dest, delays)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('variants', nargs='*', default=VARIANTS)
@@ -467,10 +573,24 @@ def main():
     ap.add_argument('--scale', type=int, default=2)
     ap.add_argument('--banner', action='store_true',
                     help='only compose OUT/../banner.png from existing previews')
+    ap.add_argument('--slides', action='store_true',
+                    help='only join the banner and existing previews into the animated OUT/../themes.png')
     a = ap.parse_args()
     hdir = os.path.join(HERE, 'out', 'previews')
     os.makedirs(hdir, exist_ok=True)
     os.makedirs(a.out, exist_ok=True)
+    if a.slides:
+        # banner first, rendered at the previews' pixel size (both are 16:10)
+        hp = os.path.join(hdir, 'banner.html')
+        with open(hp, 'w') as f:
+            f.write(banner_page(os.path.abspath(a.out)))
+        first = os.path.join(hdir, 'banner-frame.png')
+        shoot(hp, first, W * a.scale / BANNER_W, size=(BANNER_W, BANNER_H))
+        dest = os.path.join(os.path.dirname(os.path.abspath(a.out)), 'themes.png')
+        slideshow([first] + [os.path.join(a.out, v + '.png') for v in SLIDES],
+                  [BANNER_MS] + [SLIDE_MS] * len(SLIDES), dest, W * a.scale)
+        print(f'slides: {os.path.relpath(dest, ROOT)} ({os.path.getsize(dest) // 1024} KB)')
+        return
     if a.banner:
         hp = os.path.join(hdir, 'banner.html')
         with open(hp, 'w') as f:

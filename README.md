@@ -38,11 +38,16 @@ The pulled version is recorded in `vsc/UPSTREAM.json` and written into each sche
     python3 preview.py            # all 11 -> ../../public/images/previews/<variant>.png
     python3 preview.py dark-dimmed --out /tmp/prev
     python3 preview.py --banner   # compose ../../public/images/banner.png from the previews
+    python3 preview.py --slides   # animated ../../public/images/themes.png: banner, then all 11
 
 Draws an Islands-style IDE window (toolbar, stripes, Project tree, Kotlin editor with a completion
 popup, status bar) from the generated `resources/theme/*.theme.json` and schemes, and screenshots it
 at 2560x1600 with headless Chrome (`CHROME` overrides the path). It's a mockup, not an IDE screenshot.
 Missing keys are drawn magenta and make it exit non-zero.
+`--slides` joins the banner (rendered at the previews' 2560x1600) and the previews into a looping
+APNG (4 s banner, 2.5 s per theme, 0.6 s left-to-right wipe between them). Headless Chrome crops each
+wipe into 12 full-height strips, which become small APNG frames drawn over the previous one, so the
+wipe costs about one frame of file size. Only the standard library and Chrome are needed.
 
 ## Files
 
