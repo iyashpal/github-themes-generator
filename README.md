@@ -33,6 +33,17 @@ The pulled version is recorded in `vsc/UPSTREAM.json` and written into each sche
     python3 gen_themes.py out && python3 audit2.py out
     cp out/*.theme.json ../../resources/theme/ && cp out/scheme/*.xml ../../resources/theme/scheme/
 
+## Preview images
+
+    python3 preview.py            # all 11 -> ../../public/images/previews/<variant>.png
+    python3 preview.py dark-dimmed --out /tmp/prev
+    python3 preview.py --banner   # compose ../../public/images/banner.png from the previews
+
+Draws an Islands-style IDE window (toolbar, stripes, Project tree, Kotlin editor with a completion
+popup, status bar) from the generated `resources/theme/*.theme.json` and schemes, and screenshots it
+at 2560x1600 with headless Chrome (`CHROME` overrides the path). It's a mockup, not an IDE screenshot.
+Missing keys are drawn magenta and make it exit non-zero.
+
 ## Files
 
 - `vsc/src`: upstream `src/` (minus index.js) + tritanopia patch (colors.js cases for the two
@@ -50,6 +61,7 @@ The pulled version is recorded in `vsc/UPSTREAM.json` and written into each sche
   with `javap` (run by `update.py`; `python3 codekeys.py` to rerun alone).
 - `syntax/`: one module per language family mapping IntelliJ syntax keys to VS Code scopes;
   `syntax/MAPPING.md` has the rules for mapping new keys and how to verify them.
+- `preview.py`: renders the README/Marketplace preview images (see above).
 - `audit2.py`: contrast, accessibility, Islands-structure, parity and JetBrains-leak checks.
 - `orig/scheme/`: pre-generator schemes, used only as the editor attribute-name template.
 - `LICENSE-github-vscode-theme.txt`: upstream MIT license.
